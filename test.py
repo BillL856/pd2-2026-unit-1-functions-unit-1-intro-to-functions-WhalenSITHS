@@ -4,6 +4,7 @@ from turtle import *
 t = Turtle()
 
 t.shape('turtle')
+t.speed(5)
 
 t.forward(200)
 
@@ -44,3 +45,11 @@ def rectangle():
     t.left(90)
     t.forward(100)
 rectangle()
+
+def triangle(x):
+    t.forward(x)
+    t.left(120)
+    t.forward(x)
+    t.left(120)
+    t.forward(x)
+equal(180) 
