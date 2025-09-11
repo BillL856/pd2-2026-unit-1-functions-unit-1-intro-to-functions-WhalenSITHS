@@ -3,20 +3,33 @@ from turtle import *
 t = Turtle()
 
 t.shape('turtle')
-t.speed(25)
+t.speed(50)
 
-for i in range(60):
-    def square(x,y):
+def square(x,y):
         for i in range(4):
             t.forward(x)
             t.left(y)
-    square(100,90)
-    t.right(5)
+t.right(5) 
 
-for i in range(60):
-    def addsquare(x,y):
-        for i in range(4):
-            t.forward(x)
-            t.left(y)
-    square(100,90)
-    t.right(5)
+
+
+def addSquares(iRange):
+    length = 5
+    for i in range (iRange):
+        square(length, 90)
+        length += 5
+        t.right(5)
+addSquares(60)
+
+def star(x):
+     for i in range(5):
+          t.forward(x)
+          t.right(144)
+
+def starspiral(iRange):
+     length = 25
+     for i in range(iRange):
+          star(length)
+          length += 5
+          t.right(5)
+starspiral(65)
