@@ -9,9 +9,6 @@ def square(x,y):
         for i in range(4):
             t.forward(x)
             t.left(y)
-t.right(5) 
-
-
 
 def addSquares(iRange):
     length = 5
