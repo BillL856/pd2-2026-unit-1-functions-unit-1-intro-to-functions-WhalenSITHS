@@ -30,3 +30,5 @@ def starspiral(iRange):
           length += 5
           t.right(5)
 starspiral(65)
+
+turtle.done

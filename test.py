@@ -52,4 +52,6 @@ def triangle(x):
     t.forward(x)
     t.left(120)
     t.forward(x)
-equal(180) 
+equal(180)
+
+turtle.done
