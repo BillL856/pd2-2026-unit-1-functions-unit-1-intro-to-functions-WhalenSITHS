@@ -3,7 +3,7 @@ from turtle import *
 t = Turtle()
 
 t.shape('turtle')
-t.speed(50)
+t.speed(25)
 
 def square(x,y):
         for i in range(4):
