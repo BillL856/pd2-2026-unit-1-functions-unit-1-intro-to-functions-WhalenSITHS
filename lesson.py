@@ -1,4 +1,4 @@
-#strings represent characters or text
+""" #strings represent characters or text
 x = "dang it Yi"
 #inputs output strings
 name = input("What's your name")
@@ -10,16 +10,16 @@ z = add(5,15)
 print(z)
 
 #integers or numbers
-""" a = int('5') 
+a = int('5') 
 bill = input("How much was the bill?")
-print(int(bill) * .15)  """
+print(int(bill) * .15) 
 
 name = "Mason"
 #use f string
 print(f"His name is {name}") 
 
 #Floot
-#bill = 3.14
+#bill = 3.14  """
 
 """ students = ["Cadee", "Mason", "Andy"]
 #lists are a collection of data

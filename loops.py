@@ -16,7 +16,7 @@ def addSquares(iRange):
         square(length, 90)
         length += 5
         t.right(5)
-addSquares(60)
+#addSquares(60)
 
 def star(x):
      for i in range(5):
